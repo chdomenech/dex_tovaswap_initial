@@ -14,7 +14,8 @@ const isUserRejected = (err) => {
 Sentry.init({
   //dsn: SENTRY_DSN || 'https://ed98e16b9d704c22bef92d24bdd5f3b7@o1092725.ingest.sentry.io/6111410',
   //dsn: SENTRY_DSN || 'https://ed98e16b9d704c22bef92d24bdd5f3b7@o1092725.ingest.sentry.io/6111410',
-  dsn: SENTRY_DSN || 'https://1656dc2294494dabb291865695678b12@o1169534.ingest.sentry.io/6262445',
+  //dsn: SENTRY_DSN || 'https://1656dc2294494dabb291865695678b12@o1169534.ingest.sentry.io/6262445',
+  dns: SENTRY_DSN || 'https://941a978da549444c83ff72afd0f3ec9e@o1172427.ingest.sentry.io/6268016',
   
   integrations: [
     new Sentry.Integrations.Breadcrumbs({
